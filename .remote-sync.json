@@ -1,0 +1,12 @@
+{
+  "transport": "scp",
+  "hostname": "motif.cs.washington.edu",
+  "port": "22",
+  "username": "slund1",
+  "target": "/homes/gws/slund1/projects/prescience-server",
+  "ignore": [
+    ".git/**"
+  ],
+  "uploadOnSave": true,
+  "keyfile": "/Users/slund1/.ssh/id_rsa"
+}
