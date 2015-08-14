@@ -1,0 +1,25 @@
+{
+    "summaryinfo" : {
+        "properties" : {
+            "procId" : { "type" : "string", "index" : "not_analyzed" },
+            "date" : { "type" : "date", "format" : "yyyy-MM-dd" },
+            "age" : { "type" : "float" },
+            "gender" : { "type" : "string", "index" : "not_analyzed" },
+            "asaCode" : { "type" : "string", "index" : "not_analyzed" },
+            "heightInches" : { "type" : "float" },
+            "weightPounds" : { "type" : "float" },
+            "procText" : { "type" : "string" },
+            "cptCode" : { "type" : "string", "index" : "not_analyzed" },
+            "anesthesiaType" : { "type" : "string", "index" : "not_analyzed" },
+            "surgDiagnosis" : { "type" : "string" },
+            "orLocation" : { "type" : "string", "index" : "not_analyzed" },
+            "anesthesiaStartTime" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "inRoomTime" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "anesthesiaReadyTime" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "procStartTime" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "procEndTime" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "leaveOrTime" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "anesthesiaEndTime" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" }
+        }
+    }
+}

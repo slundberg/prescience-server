@@ -9,6 +9,8 @@
   "author": "Scott Lundberg",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.1"
+    "express": "~4.13.1",
+    "basic-auth-connect": "~1.0.0",
+    "express-http-proxy": "~0.6.0"
   }
 }

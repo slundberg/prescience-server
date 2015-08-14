@@ -1,0 +1,9 @@
+{
+    "userstate" : {
+        "properties" : {
+            "@timestamp" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "testCaseIndex" : { "type" : "int" },
+            "testCaseTimeIndex" : { "type" : "int" }
+        }
+    }
+}

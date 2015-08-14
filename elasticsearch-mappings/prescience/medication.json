@@ -1,0 +1,12 @@
+{
+    "medication" : {
+        "properties" : {
+            "procId" : { "type" : "string", "index" : "not_analyzed" },
+            "startTime" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "endTime" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "name" : { "type" : "string", "index" : "not_analyzed" },
+            "value" : { "type" : "float" },
+            "units" : { "type" : "string", "index" : "not_analyzed" }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "recorded-score" : {
+        "properties" : {
+            "@timestamp" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "user" : { "type" : "string", "index" : "not_analyzed" },
+            "score" : { "type" : "float" },
+            "testCaseIndex" : { "type" : "int" },
+            "testCaseTimeIndex" : { "type" : "int" },
+            "time" : { "type" : "date", "format" : "yyyy-MM-dd HH:mm:ss.SSS" },
+            "procId" : { "type" : "string", "index" : "not_analyzed" },
+            "version" : { "type" : "string", "index" : "not_analyzed" }
+        }
+    }
+}

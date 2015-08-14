@@ -1,2 +1,7 @@
 node_modules
-/*.password
+elasticsearch
+logstash
+/node-server/private
+**/*.password
+
+node-server/client-passwords.json
